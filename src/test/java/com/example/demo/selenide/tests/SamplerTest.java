@@ -37,10 +37,12 @@ public class SamplerTest {
     void setUp() { page.openPage(); }
 
     @Test
-    void testInteraction() {
+    void testInteraction() throws InterruptedException {
         System.out.println("Encontrei " + page.findClickable() +  " tipos de objetos.");
 
         page.clickFirstOption();
+        Thread.sleep(2000);
+        page.clickButton();
     }
 
 }
