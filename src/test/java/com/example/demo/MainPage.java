@@ -16,6 +16,7 @@ public class MainPage {
     @FindBy(xpath = "//div[@data-test='main-menu-item' and @data-test-marker = 'Developer Tools']")
     public WebElement toolsMenu;
 
+
     @FindBy(css = "[data-test='site-header-search-action']")
     public WebElement searchButton;
 
