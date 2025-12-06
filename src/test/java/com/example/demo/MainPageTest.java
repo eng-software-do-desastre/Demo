@@ -15,6 +15,7 @@ public class MainPageTest {
     private WebDriver driver;
     private MainPage mainPage; // Assuming this class holds PageObjects/WebElements
 
+
     @BeforeEach
     public void setUp() {
         driver = new ChromeDriver();
